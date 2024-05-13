@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsvaScript</title>
+    <!-- custom-css  -->
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        button {
+            color: yellowgreen;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 10px;
+            border: red 4px solid;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        // For Loop 
+        /*var i;
+        for (i = 0; i < 10; i = i + 1) {
+
+            // bad deyar jonno
+            if (i == 3 || i == 1) {
+                continue
+            }
+            // samne ar na jaoyar jonno
+            if (i == 5)
+                break
+
+            document.write(i + "<button>Submit</button> <br>");
+
+        }*/
+
+        // Do While Loop
+        /*var i = 0;
+        do {
+            document.write(i + "<button>Do While Loop</button> <br>");
+            i = i + 1;
+        } while (i < 7);*/
+
+        /* function addTwoNumber() {
+             var num1 = 10;
+             var num2 = 20;
+             var num3 = num1 + num2;
+             var num4 = 50;
+             var num5 = num3 + num4;
+             document.write(num5 + "<br>");
+         }
+         addTwoNumber();
+         addTwoNumber();
+         addTwoNumber();*/
+
+        function addTwoNumber(n1, n2) {
+            return n1 + n2;
+        }
+        var value = addTwoNumber(20, 30) + 5 + 5 + 10;
+        document.write(value);
+
+
+    </script>
+</body>
+
+</html>

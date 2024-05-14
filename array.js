@@ -21,7 +21,7 @@ for (var item in city) {
 }
 
 /* ********************************************************************** */
-// Concat Array
+// Concat Array (jog kora)
 
 var num1 = ["A", "B", "C", "D"];
 var num2 = ["E", "F", "G", "H"];
@@ -33,7 +33,7 @@ console.log(num3);
 var Titel = "Learn With Rabbil"; /*This is String */
 var TitelArray = Array.from(Titel); /* Converting */
 console.log(TitelArray); /* This is Array*/
-console.log(TitelArray[16]); /* This is Array*/
+console.log(TitelArray[16]); /* This is Array index*/
 
 /* ******************************************************************** */
 // Array Filter
@@ -72,6 +72,7 @@ var result = numberArray.find(function (value) {
   return value < 6;
 });
 console.log(result);
+
 // Array  FInd Index Method
 var numberArray = [
   5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95,
@@ -95,7 +96,7 @@ numberArray.forEach(function (item) {
 });
 
 /* ******************************************************************** */
-// Array Includes Method
+// Array Includes Method (khuje ber kora)
 
 var numberArray = [
   5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95,
@@ -105,7 +106,7 @@ var numberArray = [
 var result = numberArray.includes(70);
 console.log(result);
 
-// Array Includes Method
+// Array Includes Method  (khuje ber kora)
 
 var numberArray = [
   5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95,
@@ -152,7 +153,7 @@ var numberArray = [95, 10, 15, 45, 50, 30, 55, 53, 60, 25, 65];
 numberArray.sort().reverse();
 console.log(numberArray);
 
-// Array Sort Method
+// Array slice Method
 var numberArray = [
   5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95,
   100,

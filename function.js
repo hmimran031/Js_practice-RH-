@@ -14,7 +14,7 @@ addTwoNumber();
 addTwoNumber();
 addTwoNumber();
 
-// Function er modde Paramitter Pass
+// Function Using Paramitter Pass
 function addNumber(num1, num2) {
   num3 = num1 + num2;
   console.log(num3);
@@ -23,7 +23,7 @@ addNumber(10, 20);
 addNumber(20, 20);
 addNumber(20, 30);
 
-// Function er modde Paramitter Pass (String pass)
+// Function Using Paramitter Pass (String pass)
 function writeMyName(name) {
   console.log(name);
 }

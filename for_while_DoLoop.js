@@ -11,7 +11,7 @@ while (i < 5) {
   i = i + 1;
 }
 
-// Do While Loop
+// Do While Loop  (using condition)
 var i = 0;
 do {
   console.log(i);
@@ -22,11 +22,13 @@ do {
 } while (i < 5);
 
 // Example of a for loop to print numbers from 1 to 5
+
 for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
 
 // Example of a while loop to print numbers from 1 to 5
+
 let j = 1;
 while (j <= 5) {
   console.log(j);
@@ -34,6 +36,7 @@ while (j <= 5) {
 }
 
 // Example of a do-while loop to print numbers from 1 to 5
+
 let k = 1;
 do {
   console.log(k);

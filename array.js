@@ -150,6 +150,12 @@ console.log(numberArray);
 // Array Sort Method
 var numberArray = [95, 10, 15, 45, 50, 30, 55, 53, 60, 25, 65];
 
+numberArray.sort();
+console.log(numberArray);
+
+// Array Sort With Reverse Method
+var numberArray = [95, 10, 15, 45, 50, 30, 55, 53, 60, 25, 65];
+
 numberArray.sort().reverse();
 console.log(numberArray);
 

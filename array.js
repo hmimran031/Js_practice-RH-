@@ -187,5 +187,5 @@ var numberArray = [
   100,
 ];
 
-numberArray.splice(20, 0, 2);
+numberArray.splice(20, 0, 1000);
 console.log(numberArray);
